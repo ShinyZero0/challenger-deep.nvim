@@ -1,29 +1,24 @@
 ![Challenger Deep](https://challenger-deep-theme.github.io/images/logo.png)
 
-### [Challenger Deep Theme](https://challenger-deep-theme.github.io/) for VIM
+### [Challenger Deep Theme](https://challenger-deep-theme.github.io/) for NEOVIM
+
+Originally from https://github.com/challenger-deep-theme/vim, ported to
+Lua/Neovim api for personal use
 
 To enable this color scheme, set it in your vimrc:
 ```
 colorscheme challenger_deep
 ```
 
-### Terminal True Color Support ###
-  Add this to your .vimrc to enable true colors:
-```
-if has('nvim') || has('termguicolors')
-  set termguicolors
-endif
-```
-
 ### Installation
 
 #### vim-plug ###
 ```
-Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+Plug 'SethBarberee/challenger_deep.nvim', { 'as': 'challenger-deep' }
 ```
 #### vundle ###
 ```
-Plugin 'challenger-deep-theme/vim', {'name': 'challenger-deep-theme'}
+Plugin 'SethBarberee/challenger_deep.nvim', {'name': 'challenger-deep-theme'}
 ```
 
 ### Screenshot ###
