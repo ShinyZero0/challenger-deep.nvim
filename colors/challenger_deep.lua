@@ -294,6 +294,9 @@ local plugin_syntax = {
     NullLsInfoTitle = { link = 'LspInfoTitle' },
     NullLsInfoBorder = { link = 'LspInfoBorder' },
     NullLsInfoSources = { link = 'Type' },
+
+    WhichKeyDesc = { fg = challenger_deeper.yellow},
+    WhichKey = { fg = challenger_deeper.dark_cyan},
 }
 
 local async_load_plugin
