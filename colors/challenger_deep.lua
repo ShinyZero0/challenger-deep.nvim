@@ -157,7 +157,7 @@ local syntax = {
 
     -- NVIM floating window theming
     NormalFloat = { fg = challenger_deeper.fg, bg = challenger_deeper.bg },
-    FloatBorder = { fg = challenger_deeper.white, bg = challenger_deeper.bg },
+    FloatBorder = { fg = challenger_deeper.dark_cyan, bg = challenger_deeper.bg },
 
 }
 
@@ -220,7 +220,7 @@ local plugin_syntax = {
     --LspDiagnosticsUnderlineInformation = {gui="undercurl",sp=challenger_deeper.blue},
     --LspDiagnosticsUnderlineHint = {gui="undercurl",sp=challenger_deeper.cyan},
 
-    TelescopeBorder = { link = 'LspInfoBorder' },
+    TelescopeBorder = { link = 'FloatBorder' },
     --TelescopePromptBorder = {fg=challenger_deeper.blue},
     --TelescopeMatching = {fg=challenger_deeper.teal},
     --TelescopeSelection = {fg=challenger_deeper.yellow, bg=challenger_deeper.bg_highlight,gui= 'bold'},
