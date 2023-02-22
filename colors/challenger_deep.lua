@@ -230,9 +230,9 @@ local plugin_syntax = {
     -- nvim-cmp
     -- TODO: Maybe use the TS Highlight groups?
     -- Currently, doing a VSCode style
-    CmpItemAbbrMatchFuzzy = { bg = challenger_deeper.bg_subtle, fg = challenger_deeper.dark_cyan },
-    CmpItemAbbrMatch = { bg = challenger_deeper.bg_subtle, fg = challenger_deeper.dark_cyan },
-
+    CmpItemAbbrMatchFuzzy = { bg = challenger_deeper.bg, fg = challenger_deeper.dark_cyan },
+    CmpItemAbbrMatch = {fg = challenger_deeper.dark_cyan },
+ -- bg = challenger_deeper.bg
     CmpItemKindFunction = { fg = challenger_deeper.purple },
     CmpItemKindMethod = { link = 'CmpItemKindFunction' },
 
