@@ -221,8 +221,8 @@ local plugin_syntax = {
     --LspDiagnosticsUnderlineHint = {gui="undercurl",sp=challenger_deeper.cyan},
 
     TelescopeBorder = { link = 'FloatBorder' },
-    --TelescopePromptBorder = {fg=challenger_deeper.blue},
-    --TelescopeMatching = {fg=challenger_deeper.teal},
+    -- TelescopePromptBorder = {fg=challenger_deeper.blue},
+    TelescopeMatching = {fg=challenger_deeper.dark_cyan},
     --TelescopeSelection = {fg=challenger_deeper.yellow, bg=challenger_deeper.bg_highlight,gui= 'bold'},
     --TelescopeSelectionCaret = {fg=challenger_deeper.yellow},
     --TelescopeMultiSelection = {fg=challenger_deeper.teal},
