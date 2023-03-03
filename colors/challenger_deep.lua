@@ -80,7 +80,7 @@ end
 local syntax = {
 	Normal = { fg = challenger_deeper.fg, bg = challenger_deeper.bg },
 	Cursor = { fg = challenger_deeper.bg_dark, bg = challenger_deeper.blue },
-	Comment = { fg = challenger_deeper.lighter_gray, italic = false },
+	Comment = { fg = challenger_deeper.norm_subtle, italic = false },
 	Constant = { fg = challenger_deeper.yellow },
 	String = { link = "Constant" },
 	Character = { link = "Constant" },
