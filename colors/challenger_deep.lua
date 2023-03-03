@@ -108,7 +108,7 @@ local syntax = {
 	Special = { fg = challenger_deeper.cyan },
 	SpecialChar = { fg = challenger_deeper.fg },
 	Tag = { fg = challenger_deeper.cyan },
-	Delimiter = { fg = challenger_deeper.cyan },
+	Delimiter = { fg = challenger_deeper.white },
 	SpecialComment = { fg = challenger_deeper.cyan },
 	Debug = { fg = challenger_deeper.cyan },
 	Ignore = { fg = challenger_deeper.dark_red, bg = challenger_deeper.bg_subtle, bold = true },
