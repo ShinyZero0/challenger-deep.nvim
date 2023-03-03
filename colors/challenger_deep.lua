@@ -88,7 +88,7 @@ local syntax = {
 	Boolean = { fg = challenger_deeper.dark_yellow },
 	Float = { fg = challenger_deeper.dark_yellow },
 	Identifier = { fg = challenger_deeper.purple },
-	Function = { fg = challenger_deeper.purple },
+	Function = { fg = challenger_deeper.cyan },
 	Label = { fg = challenger_deeper.dark_blue },
 	Operator = { fg = challenger_deeper.dark_cyan },
 	Repeat = { fg = challenger_deeper.dark_cyan },
