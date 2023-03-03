@@ -38,8 +38,8 @@ local challenger_deep = {
     a = { fg = colors.asphalt_subtle, bg = colors.green , gui = "bold", },
   },
   insert = {
-    b = { fg = colors.asphalt_subtle, bg = colors.dark_red },
-    a = { fg = colors.asphalt_subtle, bg = colors.red , gui = "bold", },
+    b = { fg = colors.white, bg = colors.dark_red },
+    a = { fg = colors.white, bg = colors.red , gui = "bold", },
   },
 }
 
