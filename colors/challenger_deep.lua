@@ -19,6 +19,7 @@ local challenger_deeper = {
 	light_gray = "#B2B2B2",
 	lighter_gray = "#C6C6C6",
 
+	fg = "#cbe3e7",
 	bg = "#1E1C31",
 	asphalt = "#1E1C31",
 
@@ -53,7 +54,7 @@ local challenger_deeper = {
 	dark_clouds = "#a6b3cc",
 	norm_subtle = "#a6b3cc",
 
-	fg = "#cbe3e7",
+    pink = "#FFC3E1",
 
 	none = "NONE",
 }
@@ -289,6 +290,12 @@ local plugin_syntax = {
 
 	WhichKeyDesc = { fg = challenger_deeper.yellow },
 	WhichKey = { fg = challenger_deeper.dark_cyan },
+
+    HydraRed = { fg = challenger_deeper.red },
+    HydraBlue = { fg = challenger_deeper.dark_cyan},
+    HydraAmaranth = { fg = challenger_deeper.purple},
+    HydraTeal = { fg = challenger_deeper.cyan},
+    HydraPink = { fg = challenger_deeper.pink},
 }
 
 local async_load_plugin
