@@ -297,10 +297,10 @@ local plugin_syntax = {
 	HydraTeal = { fg = challenger_deeper.dark_cyan },
 	HydraPink = { fg = challenger_deeper.pink },
 
-	HopPreview = { fg = challenger_deeper.cyan, bg = challenger_deeper.dark_asphalt },
-	HopNextKey = { fg = challenger_deeper.yellow },
-	HopNextKey1 = { fg = challenger_deeper.dark_cyan },
-	HopNextKey2 = { fg = challenger_deeper.cyan },
+	HopPreview = { fg = challenger_deeper.bg_subtle, bg = challenger_deeper.pink },
+	HopNextKey = { fg = challenger_deeper.yellow, bg = challenger_deeper.bg_subtle },
+	HopNextKey1 = { fg = challenger_deeper.dark_cyan, bg = challenger_deeper.bg_subtle },
+	HopNextKey2 = { fg = challenger_deeper.cyan, bg = challenger_deeper.bg_subtle },
 	HopUnmatched = { fg = challenger_deeper.norm_subtle },
 
 	-- PLUGINS HIGHLIGHT
