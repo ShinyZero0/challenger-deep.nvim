@@ -130,7 +130,7 @@ local syntax = {
 	StatusLine = { bg = challenger_deeper.bg_dark },
 	Conceal = { fg = challenger_deeper.norm },
 	StatusLineNC = { bg = challenger_deeper.bg_dark, fg = challenger_deeper.medium_gray },
-	VertSplit = { fg = challenger_deeper.bg_subtle },
+	VertSplit = { fg = challenger_deeper.dark_cyan },
 	Title = { fg = challenger_deeper.dark_blue },
 	Visual = { bg = challenger_deeper.visual },
 	WarningMsg = { fg = challenger_deeper.yellow },
@@ -301,6 +301,8 @@ local plugin_syntax = {
 	HopNextKey1 = { fg = challenger_deeper.dark_cyan },
 	HopNextKey2 = { fg = challenger_deeper.cyan },
 	HopUnmatched = { fg = challenger_deeper.norm_subtle },
+
+    -- PLUGINS HIGHLIGHT
 }
 
 local async_load_plugin
