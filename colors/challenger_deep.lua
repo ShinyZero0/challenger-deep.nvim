@@ -288,14 +288,19 @@ local plugin_syntax = {
 	NullLsInfoBorder = { link = "LspInfoBorder" },
 	NullLsInfoSources = { link = "Type" },
 
-	WhichKeyDesc = { fg = challenger_deeper.yellow },
 	WhichKey = { fg = challenger_deeper.dark_cyan },
+	WhichKeyDesc = { fg = challenger_deeper.yellow },
 
 	HydraRed = { fg = challenger_deeper.red },
 	HydraBlue = { fg = challenger_deeper.blue },
 	HydraAmaranth = { fg = challenger_deeper.purple },
 	HydraTeal = { fg = challenger_deeper.dark_cyan },
 	HydraPink = { fg = challenger_deeper.pink },
+
+	HopNextKey = { fg = challenger_deeper.yellow },
+	HopNextKey1 = { fg = challenger_deeper.dark_cyan },
+	HopNextKey2 = { fg = challenger_deeper.cyan },
+	HopUnmatched = { fg = challenger_deeper.norm_subtle },
 }
 
 local async_load_plugin
