@@ -107,7 +107,7 @@ local syntax = {
 	Structure = { fg = challenger_deeper.blue },
 	Typedef = { fg = challenger_deeper.blue },
 	Special = { fg = challenger_deeper.cyan },
-	SpecialChar = { fg = challenger_deeper.fg },
+	SpecialChar = { fg = challenger_deeper.pink },
 	Tag = { fg = challenger_deeper.cyan },
 	Delimiter = { fg = challenger_deeper.white },
 	SpecialComment = { fg = challenger_deeper.cyan },
