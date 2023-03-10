@@ -7,7 +7,7 @@
 local challenger_deeper = {
 
 	-- Colors
-	black = "#212121",
+	black = "#000000",
 	medium_gray = "#767676",
 	white = "#F3F3F3",
 	actual_white = "#FFFFFF",
@@ -79,7 +79,8 @@ function challenger_deeper.terminal_color()
 end
 
 local syntax = {
-	Normal = { fg = challenger_deeper.fg, bg = challenger_deeper.bg },
+	Normal = { fg = challenger_deeper.white},
+-- , bg = challenger_deeper.bg 
 	Cursor = { fg = challenger_deeper.bg_dark, bg = challenger_deeper.blue },
 	Comment = { fg = challenger_deeper.norm_subtle, italic = false },
 	Constant = { fg = challenger_deeper.yellow },
@@ -297,10 +298,10 @@ local plugin_syntax = {
 	HydraTeal = { fg = challenger_deeper.dark_cyan },
 	HydraPink = { fg = challenger_deeper.pink },
 
-	HopPreview = { fg = challenger_deeper.bg_subtle, bg = challenger_deeper.pink },
-	HopNextKey = { fg = challenger_deeper.yellow, bg = challenger_deeper.bg_subtle },
-	HopNextKey1 = { fg = challenger_deeper.dark_cyan, bg = challenger_deeper.bg_subtle },
-	HopNextKey2 = { fg = challenger_deeper.cyan, bg = challenger_deeper.bg_subtle },
+	HopPreview = { fg = challenger_deeper.black, bg = challenger_deeper.yellow },
+	HopNextKey = { fg = challenger_deeper.yellow, bg = challenger_deeper.black },
+	HopNextKey1 = { fg = challenger_deeper.dark_cyan, bg = challenger_deeper.black },
+	HopNextKey2 = { fg = challenger_deeper.cyan, bg = challenger_deeper.black },
 	HopUnmatched = { fg = challenger_deeper.norm_subtle },
 
 	-- PLUGINS HIGHLIGHT
