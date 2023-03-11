@@ -185,6 +185,7 @@ local plugin_syntax = {
 	GitGutterChange = { fg = challenger_deeper.yellow, bg = challenger_deeper.bg_subtle },
 	GitGutterChangeDelete = { fg = challenger_deeper.red, bg = challenger_deeper.bg_subtle },
 
+    NeoTreeTitleBar = { fg = challenger_deeper.black, bg = challenger_deeper.dark_cyan},
 	NeoTreeGitAdded = { fg = challenger_deeper.green },
 	NeoTreeGitModified = { fg = challenger_deeper.yellow },
 	NeoTreeGitDeleted = { fg = challenger_deeper.red },
