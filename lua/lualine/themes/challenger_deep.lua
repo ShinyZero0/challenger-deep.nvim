@@ -29,16 +29,16 @@ local challenger_deep = {
     a = { fg = colors.asphalt_subtle, bg = colors.yellow , gui = "bold", },
   },
   inactive = {
-    b = { fg = colors.dark_asphalt, bg = colors.asphalt_subtle },
-    a = { fg = colors.dark_asphalt, bg = colors.asphalt_subtle , gui = "bold", },
-    c = { fg = colors.dark_asphalt, bg = colors.asphalt_subtle },
+    b = { fg = colors.dark_cyan, bg = colors.asphalt_subtle },
+    a = { fg = colors.dark_cyan, bg = colors.asphalt_subtle , gui = "bold", },
+    c = { fg = colors.dark_cyan, bg = colors.asphalt_subtle },
   },
   replace = {
     b = { fg = colors.asphalt_subtle, bg = colors.dark_green },
     a = { fg = colors.asphalt_subtle, bg = colors.green , gui = "bold", },
   },
   insert = {
-    b = { fg = colors.asphalt_subtle, bg = colors.dark_red },
+    b = { fg = colors.white, bg = colors.dark_red },
     a = { fg = colors.asphalt_subtle, bg = colors.red , gui = "bold", },
   },
 }
