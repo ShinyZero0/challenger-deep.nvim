@@ -42,7 +42,8 @@ local challenger_deeper = {
 	blue = "#91ddff",
 	dark_blue = "#65b2ff",
 
-	purple = "#c991e1",
+	-- purple = "#c991e1",
+	purple = "#ff66ff",
 	dark_purple = "#906cff",
 
 	cyan = "#aaffe4",
@@ -79,8 +80,8 @@ function challenger_deeper.terminal_color()
 end
 
 local syntax = {
-	Normal = { fg = challenger_deeper.white},
--- , bg = challenger_deeper.bg 
+	Normal = { fg = challenger_deeper.white },
+	-- , bg = challenger_deeper.bg
 	Cursor = { fg = challenger_deeper.bg_dark, bg = challenger_deeper.blue },
 	Comment = { fg = challenger_deeper.norm_subtle, italic = false },
 	Constant = { fg = challenger_deeper.yellow },
@@ -185,7 +186,7 @@ local plugin_syntax = {
 	GitGutterChange = { fg = challenger_deeper.yellow, bg = challenger_deeper.bg_subtle },
 	GitGutterChangeDelete = { fg = challenger_deeper.red, bg = challenger_deeper.bg_subtle },
 
-    NeoTreeTitleBar = { fg = challenger_deeper.black, bg = challenger_deeper.dark_cyan},
+	NeoTreeTitleBar = { fg = challenger_deeper.black, bg = challenger_deeper.dark_cyan },
 	NeoTreeGitAdded = { fg = challenger_deeper.green },
 	NeoTreeGitModified = { fg = challenger_deeper.yellow },
 	NeoTreeGitDeleted = { fg = challenger_deeper.red },
