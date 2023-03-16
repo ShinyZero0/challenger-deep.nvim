@@ -43,7 +43,8 @@ local challenger_deeper = {
 	dark_blue = "#65b2ff",
 
 	-- purple = "#c991e1",
-	purple = "#ff66ff",
+	-- purple = "#ff66ff",
+	purple = "#ff99e3",
 	dark_purple = "#906cff",
 
 	cyan = "#aaffe4",
