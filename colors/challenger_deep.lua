@@ -13,10 +13,12 @@ local challenger_deeper = {
 	-- Colors
 
 	red = "#ff8080",
-	dark_red = "#ff5458",
+	redDark = "#ff5458",
+	redBg = "#630118",
 
 	green = "#95ffa4",
-	dark_green = "#62d196",
+	greenDark = "#62d196",
+	greenBg = "#174a2f",
 
 	yellow = "#ffe9aa",
 	yellowDark = "#ffb378",
@@ -52,8 +54,8 @@ function challenger_deeper.terminal_color()
 	vim.g.terminal_color_6 = challenger_deeper.cyan
 	vim.g.terminal_color_7 = challenger_deeper.grayLight
 	vim.g.terminal_color_8 = challenger_deeper.black
-	vim.g.terminal_color_9 = challenger_deeper.dark_red
-	vim.g.terminal_color_10 = challenger_deeper.dark_green
+	vim.g.terminal_color_9 = challenger_deeper.redDark
+	vim.g.terminal_color_10 = challenger_deeper.greenDark
 	vim.g.terminal_color_11 = challenger_deeper.yellowDark
 	vim.g.terminal_color_12 = challenger_deeper.blueDark
 	vim.g.terminal_color_13 = challenger_deeper.purpleDark
@@ -63,8 +65,8 @@ end
 
 local syntax = {
 
+	-- No bg because it breaks transparence
 	Normal = { fg = challenger_deeper.white },
-	-- , bg = challenger_deeper.bg
 	Cursor = { fg = challenger_deeper.grayDark, bg = challenger_deeper.blue },
 	Comment = { fg = challenger_deeper.gray, italic = false },
 	Constant = { fg = challenger_deeper.yellow },
@@ -84,8 +86,8 @@ local syntax = {
 	Macro = { link = "PreProc" },
 	PreCondit = { link = "PreProc" },
 	Keyword = { fg = challenger_deeper.red },
-	Statement = { fg = challenger_deeper.red },
-	Conditional = { fg = challenger_deeper.red },
+	Statement = { link = "Keyword" },
+	Conditional = { link = "Keyword" },
 	Exception = { fg = challenger_deeper.red },
 	Type = { fg = challenger_deeper.blue },
 	StorageClass = { fg = challenger_deeper.blue },
@@ -97,14 +99,14 @@ local syntax = {
 	Delimiter = { fg = challenger_deeper.white },
 	SpecialComment = { fg = challenger_deeper.cyan },
 	Debug = { fg = challenger_deeper.cyan },
-	Ignore = { fg = challenger_deeper.dark_red, bg = challenger_deeper.black, bold = true },
+	Ignore = { fg = challenger_deeper.redDark, bg = challenger_deeper.black, bold = true },
 	Underlined = { fg = challenger_deeper.grayLight, underline = true },
-	Error = { fg = challenger_deeper.dark_red, bg = challenger_deeper.black, bold = true },
+	Error = { fg = challenger_deeper.redDark, bg = challenger_deeper.black, bold = true },
 	Todo = { fg = challenger_deeper.yellowDark, bg = challenger_deeper.black, bold = true },
 	SpecialKey = { fg = challenger_deeper.blue },
 	NonText = { fg = challenger_deeper.grayDark },
 	Directory = { fg = challenger_deeper.purple },
-	ErrorMsg = { fg = challenger_deeper.dark_red },
+	ErrorMsg = { fg = challenger_deeper.redDark },
 	IncSearch = { fg = challenger_deeper.grayLight, bg = challenger_deeper.red },
 	Search = { bg = challenger_deeper.grayDark },
 	MoreMsg = { fg = challenger_deeper.gray, bold = true },
@@ -134,10 +136,10 @@ local syntax = {
 	ColorColumn = { bg = challenger_deeper.black },
 	MatchParen = { bg = challenger_deeper.grayDark, fg = challenger_deeper.cyan, bold = true },
 	qfLineNr = { fg = challenger_deeper.gray },
-	SpellBad = { fg = challenger_deeper.dark_red, sp = challenger_deeper.dark_red, underline = true },
+	SpellBad = { fg = challenger_deeper.redDark, sp = challenger_deeper.redDark, underline = true },
 	SpellCap = { fg = challenger_deeper.green, sp = challenger_deeper.green, underline = true },
 	SpellRare = { fg = challenger_deeper.red, sp = challenger_deeper.red, underline = true },
-	SpellLocal = { fg = challenger_deeper.dark_green, sp = challenger_deeper.dark_green, underline = true },
+	SpellLocal = { fg = challenger_deeper.greenDark, sp = challenger_deeper.greenDark, underline = true },
 
 	-- NVIM floating window theming
 	NormalFloat = { fg = challenger_deeper.white, bg = challenger_deeper.backGround },
@@ -148,18 +150,18 @@ local plugin_syntax = {
 
 	TreesitterContext = { bg = challenger_deeper.grayDark },
 
-	DiffAdd = { bg = challenger_deeper.green, fg = challenger_deeper.blackTrue },
+	DiffAdd = { bg = challenger_deeper.greenBg },
 	DiffAdded = { bg = challenger_deeper.green, fg = challenger_deeper.blackTrue },
-	DiffDelete = { bg = challenger_deeper.red, fg = challenger_deeper.blackTrue },
+	DiffDelete = { bg = challenger_deeper.redBg },
 	DiffRemoved = { bg = challenger_deeper.red, fg = challenger_deeper.blackTrue },
 	DiffChange = { bg = challenger_deeper.yellowDark, fg = challenger_deeper.blackTrue },
 	DiffChanged = { bg = challenger_deeper.yellowDark, fg = challenger_deeper.blackTrue },
 	DiffText = { bg = challenger_deeper.yellow, fg = challenger_deeper.blackTrue },
 
 	GitSignsAdd = { fg = challenger_deeper.green },
-	GitSignsAdded = { fg = challenger_deeper.green },
+	GitSignsAdded = { fg = challenger_deeper.greenDark },
 	GitSignsDelete = { fg = challenger_deeper.red },
-	GitSignsRemoved = { fg = challenger_deeper.red },
+	GitSignsRemoved = { fg = challenger_deeper.redDark },
 	GitSignsChange = { fg = challenger_deeper.yellowDark },
 	GitSignsChanged = { fg = challenger_deeper.yellowDark },
 
