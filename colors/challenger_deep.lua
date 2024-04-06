@@ -148,6 +148,8 @@ local syntax = {
 
 local plugin_syntax = {
 
+	DiagnosticError = { fg = challenger_deeper.red },
+
 	TreesitterContext = { bg = challenger_deeper.grayDark },
 
 	DiffAdd = { bg = challenger_deeper.greenBg },
